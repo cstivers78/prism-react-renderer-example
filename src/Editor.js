@@ -1,8 +1,8 @@
 import React, { Fragment, Component } from "react";
 
 import Editor from "react-simple-code-editor";
-import Highlight, { defaultProps } from "prism-react-renderer";
-import theme from "prism-react-renderer/themes/nightOwl";
+import Highlight, { defaultProps } from "@atlassian/prism-react-renderer";
+import theme from "@atlassian/prism-react-renderer/themes/nightOwl";
 
 const exampleCode = `
 (function someDemo() {

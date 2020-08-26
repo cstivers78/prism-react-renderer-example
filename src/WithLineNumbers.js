@@ -1,7 +1,7 @@
 import React from "react";
 import { Pre, Line, LineNo, LineContent } from "./styles";
-import Highlight, { defaultProps } from "prism-react-renderer";
-import theme from "prism-react-renderer/themes/nightOwl";
+import Highlight, { defaultProps } from "@atlassian/prism-react-renderer";
+import theme from "@atlassian/prism-react-renderer/themes/nightOwl";
 
 const exampleCode = `
 import React, { useState } from "react";
